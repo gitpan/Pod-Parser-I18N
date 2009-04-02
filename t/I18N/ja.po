@@ -1,0 +1,28 @@
+msgid "NAME"
+msgstr "名称"
+
+msgid "SYNOPSIS"
+msgstr "概要"
+
+msgid "DESCRIPTION"
+msgstr "説明"
+
+msgid "Pod::Parser::I18N - Internationalized POD"
+msgstr "Pod::Parser::I18N - POD国際化モジュール"
+
+msgid "This module exists in cases you want to display internationalized/translated versions of your POD."
+msgstr "このモジュールは、PODを国際化された（翻訳された）状態で処理する時に使用します。"
+
+msgid "The idea is to have a thin layer that consumes POD, and runs the text in there through Data::Localize before your actual processor gets to it."
+msgstr "PODをパースするレイヤーとそれを実際に表示・処理するレイヤーの間にData::Localizeを差し込み、処理前に翻訳してから処理側に受け渡します。"
+
+msgid "This software is still in its very early stage. Please feel free to send me patches comments. The repository is at:"
+msgstr "本ソフトウェアはまだ試作段階です。パッチ・コメント歓迎！レポジトリは下記にあります："
+
+# new -> localize
+msgid "Specifies the localizer object to use. If given a hash, it is taken as the parameters passed to Data::Localize::add_localizer(). Given a list, the values are expected to be hash references, each of which are taken as the values to be passed to add_localizer()."
+msgstr "国際化に使用するオブジェクトを指定します。ハッシュが渡された場合はそのハッシュがData::Localize::add_localizer()に引数として渡されます。リストが渡された場合はそれぞれの要素がハッシュである必要があり、それらがadd_localizer() に渡されます。"
+
+msgid "Specifies the actual handler that does the POD processing. It must be either a Pod::Parser subclass or an object that implements Pod::Parser::I18N::Handler role."
+msgstr "PODを実際に処理するオブジェクトを指定します。このオブジェクトはPod::Parserを継承、もしくはPod::Parser::I18N::Handlerロールを実装している必要があります。"
+

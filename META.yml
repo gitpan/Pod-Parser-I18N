@@ -1,0 +1,21 @@
+---
+abstract: 'Internationalized POD'
+author:
+  - 'Daisuke Maki C<< <daisuke@endeworks.jp> >>'
+distribution_type: module
+generated_by: 'Module::Install version 0.80'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Pod-Parser-I18N
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Moose: 0
+  Pod::Parser: 0
+resources:
+  repository: http://github.com/lestrrat/pod-parser-i18n/tree/master
+version: 0.00001
